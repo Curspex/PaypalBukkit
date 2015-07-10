@@ -1,0 +1,17 @@
+name: PayPalBukkit
+main: com.adamedw.paypalbukkit.PaypalBukkit
+version: 1.0.0
+author: Omnivion
+website: http://adamedw.com
+database: false
+
+commands:
+  paypal:
+    usage: /<command>
+    description: Use the PayPal command to check balance
+    permission: paypal.use
+
+permissions:
+  paypal.use:
+    default: false
+    description: Allows usage of the basic PayPal command.
