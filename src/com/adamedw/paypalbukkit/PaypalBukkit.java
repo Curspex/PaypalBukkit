@@ -10,6 +10,7 @@ public class PaypalBukkit extends JavaPlugin {
 	@Override
 	public void onEnable()
 	{
+		this.saveDefaultConfig();
 		this.getCommand("paypal").setExecutor(new Commandpaypal());
 	}
 
