@@ -23,12 +23,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import paypalnvp.fields.ShipToAddress;
+
 import paypalnvp.fields.Address;
 import paypalnvp.fields.BillingAgreement;
 import paypalnvp.fields.BuyerDetails;
-import paypalnvp.fields.PaymentAction;
 import paypalnvp.fields.Payment;
+import paypalnvp.fields.PaymentAction;
+import paypalnvp.fields.ShipToAddress;
 import paypalnvp.fields.ShippingOptions;
 import paypalnvp.util.Validator;
 

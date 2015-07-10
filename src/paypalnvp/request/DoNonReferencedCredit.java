@@ -19,6 +19,7 @@ package paypalnvp.request;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import paypalnvp.fields.Address;
 import paypalnvp.fields.CreditCard;
 import paypalnvp.fields.Currency;
