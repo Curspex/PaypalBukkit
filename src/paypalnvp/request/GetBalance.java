@@ -62,7 +62,7 @@ public final class GetBalance implements Request {
 	}
 
     public Map<String, String> getNVPRequest() {
-        return new HashMap(nvpRequest);
+        return new HashMap<String, String>(nvpRequest);
     }
 
     public void setNVPResponse(Map<String, String> nvpResponse) {
