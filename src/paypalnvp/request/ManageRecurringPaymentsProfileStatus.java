@@ -26,7 +26,12 @@ import java.util.Map;
  */
 public final class ManageRecurringPaymentsProfileStatus implements Request {
 
-    /** The action to be performed to the recurring payments profile. */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 2375552253942196680L;
+
+	/** The action to be performed to the recurring payments profile. */
     public enum Action {
         /** Only profiles in Active or Suspended state can be cancelled. */
         CANCEL("Cancel"),

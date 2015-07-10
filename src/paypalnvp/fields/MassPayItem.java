@@ -28,7 +28,11 @@ import paypalnvp.util.Validator;
  */
 public final class MassPayItem implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -73451756346982884L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
 

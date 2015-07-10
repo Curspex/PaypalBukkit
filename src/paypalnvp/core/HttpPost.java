@@ -35,6 +35,11 @@ import java.util.logging.Logger;
 final class HttpPost implements Transport {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -9212087493140131446L;
+
+	/**
 	 * Sends request (msg attribute) to the specified url and returns response
 	 * as a string
 	 *

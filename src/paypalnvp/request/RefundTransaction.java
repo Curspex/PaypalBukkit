@@ -29,6 +29,11 @@ import paypalnvp.util.Validator;
  */
 public final class RefundTransaction implements Request {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -944216656241604128L;
+
 	/** Type of refund you are making */
 	private enum RefundType { OTHER, FULL, PARTIAL }
 

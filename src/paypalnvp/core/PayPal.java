@@ -39,7 +39,12 @@ import paypalnvp.request.SetExpressCheckout;
  */
 public final class PayPal implements Serializable {
 
-    /** 
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3363046126770016787L;
+
+	/** 
      * indicates if server for use with api signature (or api certificate if 
      * false) should be used 
      */

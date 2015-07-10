@@ -27,7 +27,12 @@ import java.util.Map;
  */
 public final class GetTransactionDetails implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1939315622188572114L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "GetTransactionDetails";
 
     /** map that holds name value pair request values */

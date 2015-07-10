@@ -27,7 +27,12 @@ import java.util.Map;
  */
 public final class BillingAgreement implements RequestFields {
 
-    /** PayPal payment you require for the billing agreement */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -1148486814827630351L;
+
+	/** PayPal payment you require for the billing agreement */
     public enum PaymentType { 
 
         ANY("Any"), 

@@ -34,6 +34,11 @@ import paypalnvp.util.Validator;
  */
 public final class TransactionSearch implements Request {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4882358418523682413L;
+
 	/** Classification of transaction */
 	public enum TranscationClass {
 

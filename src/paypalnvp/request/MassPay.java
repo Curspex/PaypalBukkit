@@ -33,6 +33,11 @@ import paypalnvp.fields.MassPayItem;
 public final class MassPay implements Request {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = -7417728093789675846L;
+
+	/**
      * Indicates how you identify the recipients of payments in this call to
      * MassPay.
      */

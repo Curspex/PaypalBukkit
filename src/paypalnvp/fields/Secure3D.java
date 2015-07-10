@@ -27,7 +27,11 @@ import java.util.Map;
  */
 public final class Secure3D implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8820592787089677150L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     public Secure3D() {

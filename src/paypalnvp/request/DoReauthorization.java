@@ -29,7 +29,12 @@ import paypalnvp.util.Validator;
  */
 public final class DoReauthorization implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -832467962999200862L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoReauthorization";
 
     /** map that holds name value pair request values */

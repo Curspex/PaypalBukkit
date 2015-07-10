@@ -41,7 +41,12 @@ import paypalnvp.util.Validator;
  */
 public final class SetExpressCheckout implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3080574772320007496L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "SetExpressCheckout";
 
     /** Locale of pages displayed by PayPal during Express Checkout. */

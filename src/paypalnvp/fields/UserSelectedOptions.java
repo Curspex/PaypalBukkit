@@ -29,6 +29,11 @@ import paypalnvp.util.Validator;
  */
 public final class UserSelectedOptions implements RequestFields {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2782110646434946823L;
+
 	/** How the options that were presented to the user were determined*/
 	public enum ShippingCalculation {
 		CALLBACK,

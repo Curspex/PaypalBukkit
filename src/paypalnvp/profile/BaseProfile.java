@@ -29,7 +29,12 @@ import java.util.Map;
  */
 public final class BaseProfile implements Profile {
 
-    /** user name obtained from paypal */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4251357120872548041L;
+
+	/** user name obtained from paypal */
     private final String userName;
 
     /** password obtained from paypal */

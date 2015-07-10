@@ -27,7 +27,11 @@ import java.util.Map;
  */
 public final class EbayPaymentItem implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8161073873238663330L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     public EbayPaymentItem() {

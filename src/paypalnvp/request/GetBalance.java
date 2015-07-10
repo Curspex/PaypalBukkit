@@ -27,7 +27,12 @@ import java.util.Map;
  */
 public final class GetBalance implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1303401451282364328L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "GetBalance";
 
     /** map that holds name value pair request values */

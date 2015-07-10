@@ -34,7 +34,12 @@ import paypalnvp.util.Validator;
  */
 public final class DoNonReferencedCredit implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 3033954092549206991L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoNonReferencedCredit";
 
     /** name value pair request */

@@ -48,7 +48,12 @@ import paypalnvp.fields.ShipToAddress;
  */
 public final class CreateRecurringPaymentsProfile implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -2217830362173028734L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "CreateRecurringPaymentsProfile";
 
     /** map that holds name value pair request values */

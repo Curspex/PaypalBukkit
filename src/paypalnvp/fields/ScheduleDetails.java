@@ -27,7 +27,11 @@ import java.util.Map;
  */
 public final class ScheduleDetails implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4740001228190383651L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     /**

@@ -33,7 +33,12 @@ import paypalnvp.util.Validator;
  */
 public final class AddressVerify implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5021409786571145357L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "AddressVerify";
 
     /** map that holds name value pair request values */

@@ -27,7 +27,12 @@ import java.util.Map;
  */
 public final class GetExpressCheckoutDetails implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -986978061595155151L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "GetExpressCheckoutDetails";
 
     /** map that holds name value pair request values */

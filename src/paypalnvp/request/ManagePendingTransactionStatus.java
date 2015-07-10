@@ -26,6 +26,11 @@ import java.util.Map;
  */
 public final class ManagePendingTransactionStatus implements Request {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3964370841369480279L;
+
 	/** The operation you want to perform on the transaction */
 	public enum Action {
 		/** accepts the payment */

@@ -30,7 +30,11 @@ import paypalnvp.util.FormatFields;
  */
 public final class RecurringPaymentsProfileDetails implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 3946090833231547336L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     /**

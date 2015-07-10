@@ -30,7 +30,12 @@ import paypalnvp.util.Validator;
  */
 public final class DoAuthorization implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -6386395125062093906L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoAuthorization";
 
     /** map that holds name value pair request values */

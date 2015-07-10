@@ -30,7 +30,12 @@ import paypalnvp.util.Validator;
  */
 public final class DoCapture implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3996067978693942180L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoCapture";
 
     /** map that holds name value pair request values */

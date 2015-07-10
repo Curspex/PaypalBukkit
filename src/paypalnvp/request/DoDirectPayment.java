@@ -34,7 +34,12 @@ import paypalnvp.fields.ShipToAddress;
  */
 public final class DoDirectPayment implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -9203941653569897184L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoDirectPayment";
 
     /** name value pair request */

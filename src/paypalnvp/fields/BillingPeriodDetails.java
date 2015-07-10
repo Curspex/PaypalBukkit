@@ -29,7 +29,12 @@ import paypalnvp.util.Validator;
  */
 public final class BillingPeriodDetails implements RequestFields {
 
-    /** Unit for billing during this subscription period */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -2353521157864085085L;
+
+	/** Unit for billing during this subscription period */
     public enum BillingPeriod {
 
         DAY("Day"),

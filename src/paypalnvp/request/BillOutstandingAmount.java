@@ -32,7 +32,12 @@ import paypalnvp.util.Validator;
  */
 public final class BillOutstandingAmount implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -5662158759063968077L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "BillOutstandingAmount";
 
     /** map that holds name value pair request values */

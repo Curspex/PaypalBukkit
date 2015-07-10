@@ -27,7 +27,12 @@ import java.util.Map;
  */
 public final class GetBillingAgreementCustomer implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 2381203062466632835L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME =
 			"GetBillingAgreementCustomerDetails";
 

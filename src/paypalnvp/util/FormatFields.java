@@ -28,7 +28,12 @@ import java.util.Date;
  */
 public final class FormatFields implements Serializable {
 
-    /** PayPal's date/time format */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1671032940040547063L;
+
+	/** PayPal's date/time format */
     private static final SimpleDateFormat dateTimeFormat;
 
     /** Credit card date format - MMYYYY */

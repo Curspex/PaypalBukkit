@@ -29,6 +29,11 @@ import paypalnvp.util.Validator;
  */
 public final class PayerInformation implements RequestFields {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8613129740757280970L;
+
 	/** Status of payer */
 	public enum PayerStatus { verified, unverified }
 

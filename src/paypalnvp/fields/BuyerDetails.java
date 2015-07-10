@@ -26,7 +26,11 @@ import java.util.Map;
  */
 public final class BuyerDetails implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3976432120562277641L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     /**

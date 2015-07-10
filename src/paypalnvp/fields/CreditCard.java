@@ -32,6 +32,11 @@ import paypalnvp.util.Validator;
 public final class CreditCard implements RequestFields {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1390396625895027246L;
+
+	/**
      * Type of credit card
      *
      * For UK, only Maestro, Solo, MasterCard, Discover, and Visa are

@@ -30,7 +30,12 @@ import java.util.regex.Pattern;
  */
 public final class Validator implements Serializable {
 
-    /** pattern accepted by paypal */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4585420906518645154L;
+
+	/** pattern accepted by paypal */
     private static final Pattern amountPattern;
 
     /** email pattern for validation */

@@ -31,7 +31,12 @@ import paypalnvp.fields.UserSelectedOptions;
  */
 public final class DoExpressCheckoutPayment implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -2075653918712484878L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoExpressCheckoutPayment";
 
     /** map that holds name value pair request values */

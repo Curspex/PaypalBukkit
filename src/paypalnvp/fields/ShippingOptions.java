@@ -28,7 +28,11 @@ import paypalnvp.util.Validator;
  */
 public final class ShippingOptions implements RequestFields {
 
-    /** map that holds name value pair request values */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5813742019497467907L;
+	/** map that holds name value pair request values */
     private final Map<String, String> nvpRequest;
 
     public ShippingOptions() {

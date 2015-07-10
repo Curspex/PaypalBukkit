@@ -35,7 +35,12 @@ import paypalnvp.fields.ShipToAddress;
  */
 public final class DoReferenceTransaction implements Request {
 
-    /** Method value of this request */
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 7964282946199857671L;
+
+	/** Method value of this request */
     private static final String METHOD_NAME = "DoReferenceTransaction";
 
     /** name value pair request */
